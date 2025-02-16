@@ -1,0 +1,141 @@
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #325234;
+    background-image: url('../IMAGES/BACKGROUND/contactus.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maincontainer {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+.menu li {
+    display: inline-block;
+    font-family: 'Berlin Sans FB';
+    vertical-align: middle;
+    margin: 0 20px;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    background-color: #d0e8d0;
+}
+
+.aboutus {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    margin-bottom: 40px;
+    color: #2E2E2E;
+    text-align: center;
+}
+
+.aboutus h1 {
+    color: white;
+    font-family: 'Tahoma';
+    font-weight: bold;
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+.aboutus p {
+    line-height: 1.6;
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #294B29;
+}
+
+.aboutus ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.aboutus img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.aboutus li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus li img {
+    margin-right: 20px;
+}
+
+.aboutus .fb {
+    font-size: 20px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: #4CAF50;
+}
+
+.aboutus .fb:hover {
+    background-color: #e2e281;
+}
+
+footer {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer h3 {
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+    margin-bottom: 0;
+}

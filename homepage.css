@@ -1,0 +1,212 @@
+
+a
+{
+	text-decoration: none;
+	color: darkgreen	;
+}
+
+
+body, html
+{
+	padding: 0;
+	height: 100%;
+	margin: 0;
+	background-image: url('IMAGES/BACKGROUND/homepage.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	max-height: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+body
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	min-height: 100vh;
+}
+
+body #logotitle
+{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 200px;
+	width: 750px;
+	margin-bottom: 0;
+}
+
+
+.maincontainer
+{
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.menu img
+{
+	width: 150px;
+	height: 100px;
+}
+
+.menu
+{
+    display: flex; 
+    align-items: center; 
+    height: 60px;
+	max-width: 100%;
+	border-width: 100%;
+	background-color: white;
+}
+
+
+
+.menu li
+{
+	display: inline-block;
+	font-family: Berlin Sans FB;
+	vertical-align: middle; 
+	margin: 0 20px;
+	
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+
+.menu .disp
+{
+	padding: 7px;
+	border-radius: 5px;
+}
+
+
+.menu li:hover
+{
+	background-color: rgb(182, 207, 182); /* ika copy paste eto sa ibang pages */
+}
+
+.menu ul 
+{
+    text-align: center; 
+    padding: 0;
+    list-style-type: none;
+    width: 100%;	
+}
+
+
+.middleSection
+{	
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+
+
+#playButton 
+{
+
+    display: block;
+	font-family: Bahnschrift;
+	margin: 22% auto ;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+footer
+{
+	margin:0;
+	padding: 0;
+	border: 1px solid;
+	border-color: rgb(255, 255, 255,0.4);
+	background-color:rgb(32, 54, 32,0.5); 
+	border-radius: 5px;
+	height: 30;
+	display: inline-flex;
+	
+	vertical-align: middle;
+}
+
+footer .imageContainer
+{
+	margin: 0 50px 0 0;
+	padding: 0;
+}
+
+
+footer .imageContainer img
+{
+	height: 200px;
+	width: 300px;
+}
+
+
+footer .quicklinks
+{
+	display: block;
+	vertical-align: middle;
+	align-self: center;
+	justify-content: space-between;
+	justify-items: center;
+	
+}
+
+
+
+footer .quicklinks li
+{
+	display: block;
+	line-height: 2;
+	font-style: Berlin Sans FB;
+	font-size:18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+footer .quicklinks img, ul
+{
+	vertical-align: middle;
+}
+
+footer .quicklinks ul
+{
+	display: inline-block;
+	margin: 0 100px;
+}
+
+
+
+footer .copyright 
+{
+	display:  block;
+	margin-top: 200px;
+}
+
+footer .copyright img
+{
+	width: 40px;
+	height: 40px;
+	display: block;
+}
+
+
+footer .copyright li
+{
+	display: inline-block;
+	margin: 0 20px;
+}

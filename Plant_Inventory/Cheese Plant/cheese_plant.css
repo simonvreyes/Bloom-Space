@@ -1,0 +1,179 @@
+
+a
+{
+	text-decoration: none;
+	color: green;
+}
+
+
+body, html
+{
+	padding: 0;
+	height: 100%;
+	margin: 0;
+	
+	background-color: #A88E72;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	max-height: 100%;
+	min-width: 100%;
+}
+
+body
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.maincontainer
+{
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+
+.menu
+{
+    display: flex; 
+    align-items: center; 
+    height: 60px;
+    background-color: white;
+
+}
+
+
+.menu li
+{
+	display: inline-block;
+	font-family: Berlin Sans FB;
+	vertical-align: middle; 
+	margin: 0 20px;
+	
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+
+.menu .disp
+{
+	padding: 7px;
+	border-radius: 5px;
+}
+
+
+.menu li:hover
+{
+	background-color: #BACD92;
+}
+
+.menu ul 
+{
+    text-align: center; 
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plants
+{
+	margin:  0;
+	padding: 0;
+	margin-bottom: 100px;
+}
+
+.plants h1	
+{
+	color: white;
+	font-family: Berlin Sans FB ;
+	font-size: 60px;
+}
+
+.plants ul
+{
+	margin: 0;
+	padding: 0;
+	margin-top: -50px;
+}
+
+.plants li
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 40px;
+}
+
+
+#icon
+{
+	width: 300px;
+	height: 350px;
+}
+#icondesp
+{
+	width: 450px;
+	height: 350px;
+	margin-left: -50px;
+}
+
+
+#rd
+{
+	width: 160px;
+	height: 30px;
+
+	border-radius: 5px;
+}
+
+#rd:hover
+{
+	background-color: #3C5B6F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+	margin: 0;
+}
+
+footer h1
+{
+	font-family: Bahnschrift;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 30px;
+}

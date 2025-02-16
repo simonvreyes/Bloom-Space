@@ -1,0 +1,186 @@
+
+a
+{
+	text-decoration: none;
+	color: green;
+}
+
+
+body, html
+{
+	padding: 0;
+	height: 100%;
+	margin: 0;
+	background-color: #A88E72;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	max-height: 100%;
+	min-width: 100%;
+}
+
+body
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+.maincontainer
+{
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+
+.menu
+{
+    display: flex; 
+    align-items: center; 
+    height: 60px;
+    background-color: white;
+
+}
+
+
+
+.menu li
+{
+	display: inline-block;
+	font-family: Berlin Sans FB;
+	vertical-align: middle; 
+	margin: 0 20px;
+	
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+
+.menu .disp
+{
+	padding: 7px;
+	border-radius: 5px;
+}
+
+
+.menu li:hover
+{
+	background-color: #BACD92;
+}
+
+.menu ul 
+{
+    text-align: center; 
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+
+
+
+
+.details
+{
+	margin: 0;
+	padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.details h1
+{
+	color: #132a06;
+	font-family: sans-serif;
+	font-size: 50px;
+
+}
+.details h3
+{
+	color: #132a06;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.details img
+{
+	width: 900px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.details .p1
+{
+    color: black;
+	font-family: Bahnschrift;
+	font-size: 20px;
+}
+
+.details .p2
+{
+	color: black;
+	font-family: Bahnschrift;
+	font-size: 20px;
+  
+
+}
+
+
+.details h5
+{
+	color: black;
+	text-align: left;
+	font-family: Bahnschrift;
+}
+.details a
+{
+	color: black;
+	text-decoration: underline;
+}
+
+
+.details .h5link
+{
+	padding: 80px;
+	text-align: justify;
+	line-height: 2.5;
+	font-size: 20px;
+}
+
+
+#back
+{
+	text-align: right;
+	padding:80px;
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+}
+
+
+footer
+{
+	margin: 0;
+}
+
+footer h3
+{
+	font-family: Bahnschrift;
+	color: black;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
