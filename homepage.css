@@ -158,7 +158,6 @@ footer .imageContainer img
 footer .quicklinks
 {
 	display: block;
-	vertical-align: middle;
 	align-self: center;
 	justify-content: space-between;
 	justify-items: center;
