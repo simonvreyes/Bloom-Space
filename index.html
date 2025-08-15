@@ -8,54 +8,35 @@
 </head>
 <body>
 
-    <div class="maincontainer">
+<div class="maincontainer">
 
-
-
-
-        <nav class="menu">
-            <ul>
-
-                <li> <img src="IMAGES/BACKGROUND/bloomspacelogo.png"> </li>
-
-                <li class="disp"> 
-                    <a href="#"> HOME </a>
-                </li>
-                <li class="disp"> 
-                    <a href="Plant_Inventory/plantinventory.html"> PLANT INVENTORY </a> 
-                </li> 
-                <li class="disp"> 
-                    <a href="Problems/problems.html"> PROBLEMS </a>  
-                </li>
-                <li class="disp"> 
-                    <a href="How To/howto.html"> HOW TO </a>     
-                </li> 
-                <li class="disp"> 
-                    <a href="About US/aboutus.html"> ABOUT US </a>         
-                </li>
-                <li class="disp"> 
-                    <a href="Contact US/contactus.html"> CONTACT US </a>     
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="menu">
+        <ul>
+            <li>
+                <img src="IMAGES/BACKGROUND/bloomspacelogo.png" alt="Bloom Space Logo">
+            </li>
+            <li class="disp"><a href="#">HOME</a></li>
+            <li class="disp"><a href="Plant_Inventory/plantinventory.html">PLANT INVENTORY</a></li>
+            <li class="disp"><a href="Problems/problems.html">PROBLEMS</a></li>
+            <li class="disp"><a href="How To/howto.html">HOW TO</a></li>
+            <li class="disp"><a href="About US/aboutus.html">ABOUT US</a></li>
+            <li class="disp"><a href="Contact US/contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
 
     <div class="middleSection">
-        <img id="logotitle" src="IMAGES/BACKGROUND/logotitle.png">
+        <img id="logotitle" src="IMAGES/BACKGROUND/logotitle.png" alt="Logo Title">
    
         <audio id="background-music" src="AUDIO/stardewMusic.mp3" autoplay muted></audio>
         <button id="playButton" style="display:none;">Play Music</button>
-
 
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const audio = document.getElementById('background-music');
                 audio.muted = true;
                 audio.play().then(() => {
-                    // Autoplay started successfully
-                    audio.muted = false;    
-                }).catch((error) => {
-                    // Autoplay was prevented, show the play button
+                    audio.muted = false;
+                }).catch(() => {
                     const playButton = document.getElementById('playButton');
                     playButton.style.display = 'block';
                     playButton.addEventListener('click', function() {
@@ -65,22 +46,14 @@
                 });
             });
         </script>
-    
     </div>
 
-
-
-
     <footer>
-        
         <div class="imageContainer">
-            
-            <img src="IMAGES/BACKGROUND/bloomspacelogo.png">
-
+            <img src="IMAGES/BACKGROUND/bloomspacelogo.png" alt="Bloom Space Logo">
         </div>
 
-
-        <div class="quicklinks"> 
+        <div class="quicklinks">
             <ul>
                 <li>Plant Inventory</li>
                 <li>Homepage</li>
@@ -90,22 +63,13 @@
                 <li>How To</li>
             </ul>
             <ul>
-                <li>About us</li>
-
-                <li>Contact us</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
             </ul>
         </div>
-
-
-
     </footer>
 
-
-
-
-
-
-
+</div> <!-- closes maincontainer -->
 
 </body>
 </html>
